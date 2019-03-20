@@ -15,8 +15,8 @@ def draw_tree(x, y):
 
 def on_draw():
     arcade.start_render()
-    for i in range(0, WIDTH - 19, 40):
-        draw_tree(i, 0)
+    for x in range(0, WIDTH - 19, 40):
+        draw_tree(x, 0)
 
 
 def on_key_press(w, modifiers):
